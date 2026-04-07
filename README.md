@@ -1,10 +1,3 @@
-Chào Trường, với một bài báo chất lượng nộp cho hội nghị quốc tế như FJCAI, file `README.md` trên GitHub (hoặc đính kèm source code) cần được viết bằng **Tiếng Anh** để hội đồng và cộng đồng quốc tế có thể đọc hiểu, đánh giá và tái tạo lại kết quả của bạn. 
-
-Dựa vào file `TalkingHead.pdf` và cấu trúc thư mục bạn vừa cung cấp, tôi đã soạn thảo một file `README.md` cực kỳ chuyên nghiệp, chuẩn phong cách của các repo nghiên cứu (Research Repository) hàng đầu.
-
-Bạn tạo file `README.md` ở thư mục gốc và dán toàn bộ nội dung dưới đây vào nhé:
-
-```markdown
 # Native In-Memory Streaming for Low-Latency Audio-Driven Conversational Avatars
 
 [![Paper](https://img.shields.io/badge/Paper-PDF-red.svg)](#) [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
