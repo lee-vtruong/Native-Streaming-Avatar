@@ -1,0 +1,29 @@
+# --- Core Deep Learning & System ---
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.1
+opencv-python>=4.8.0
+
+# --- LLM & AI Models ---
+transformers>=4.38.0
+accelerate>=0.27.2
+openai-whisper @ git+https://github.com/openai/whisper.git
+
+# --- Text-to-Speech (TTS) ---
+edge-tts>=6.1.9
+gTTS>=2.4.0
+
+# --- Web UI ---
+gradio>=4.20.0
+
+# --- Utilities & Media Processing ---
+librosa>=0.10.0
+tqdm>=4.66.2
+numba>=0.58.1
+ffmpeg-python>=0.2.0
+
+# --- SyncNet Evaluation (Tùy chọn) ---
+scenedetect>=0.6.2
+python_speech_features>=0.6

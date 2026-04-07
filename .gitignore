@@ -1,0 +1,91 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ========================
+# Virtual Environment
+# ========================
+.venv/
+venv/
+env/
+
+# ========================
+# Environment variables
+# ========================
+.env
+
+# ========================
+# Logs
+# ========================
+*.log
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+
+# ========================
+# Jupyter
+# ========================
+.ipynb_checkpoints/
+
+# ========================
+# IDE
+# ========================
+.vscode/
+.idea/
+
+# ========================
+# Outputs / Generated files
+# ========================
+outputs/
+results/
+temp/
+tmp/
+# Bỏ qua các file CSV sinh ra từ quá trình benchmark
+benchmark_*.csv
+*.csv
+
+# ========================
+# AI Models (VERY IMPORTANT)
+# ========================
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+# Bỏ qua các thư mục checkpoints chứa tạ của model (nếu có)
+checkpoints/
+weights/
+
+# ========================
+# Dataset
+# ========================
+data/
+datasets/
+
+# ========================
+# Media files
+# ========================
+*.mp4
+*.wav
+*.png
+*.jpg
+*.jpeg
+
+# NGOẠI LỆ (NẾU CẦN): Vẫn giữ lại các file media trong assets và figures để làm báo cáo
+!assets/
+!figures/
+!assets/*
+!figures/*
+
+# ========================
+# Third-party repos (Tuỳ chọn)
+# (Bỏ comment nếu bạn KHÔNG muốn push source của các model này lên repo của mình)
+# ========================
+SadTalker/
+Wav2Lip/
+syncnet_python/
